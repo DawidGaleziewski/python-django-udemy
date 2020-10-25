@@ -6,6 +6,7 @@
     <title>Document</title>
   </head>
   <body>
+    <a href="{% url 'about' %}">About</a>
     <h1>WORD COUNT {{ greet }}</h1>
     <form action="{% url 'count' %}">
       <textarea name="fulltext" id="" cols="30" rows="10"></textarea> <br />
